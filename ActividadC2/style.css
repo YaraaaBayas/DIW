@@ -1,0 +1,77 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 120px;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    background-color: #6a6767;
+    color: white;
+    padding: 20px;
+    z-index: 1000;
+    flex-wrap: wrap; 
+    gap: 15px;
+}
+
+.encabezado-header {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1909c8;
+}
+
+p {
+    font-weight: bold;
+}
+
+.listado-productos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px 20px;
+    justify-content: center;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 0.75pc;
+    width: 120px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
