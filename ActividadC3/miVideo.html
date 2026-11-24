@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad C9</title>
+    <link rel="stylesheet" href="estilosGenerales.css">
+    <link rel="stylesheet" href="miVideo.css">
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="encabezado-header-izq">
+                <img src="mi_logo.webp" class="logo">
+                <h1>Mi página web</h1>
+            </div>
+            <div class="encabezado-header-der">
+                <div><a href="https://www.elmundo.es/">El Mundo</a></div>
+                <div><a href="https://elpais.com/">El País</a></div>
+                <div><a href="https://okdiario.com/">Ok Diario</a></div>
+                <div><a href="https://www.europapress.es/">Europa Press</a></div>
+            </div>
+        </header>
+
+        <section class="hero">
+            <video autoplay muted loop playsinline class="video-fondo">
+                <source src="video/video1.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <aside class="lateral">
+            <h3>Menú lateral</h3>
+            <ul>
+                <li><a href="#filtros"> > Filtros</a></li>
+                <li><a href="#categorias"> > Categorías</a></li>
+                <li><a href="#provincias"> > Provincia</a></li>
+                <li><a href="miPagina.html"> > Página de inicio</a></li>
+            </ul>
+        </aside>
+
+        <main>
+            <h3>¡Nuestro video de presentación!</h3>
+            <hr>
+            <video controls width="500" poster="video/portadaVideo.jpg">
+                <source src="video/video1.mp4" type="video/mp4">
+                <source src="video/video2.webm" type="video/webm">
+                Tu navegador no soporta el elemento del vídeo.
+            </video>
+            <p id="descripcion-video">En esta página encontrarás los ejemplos de un video, donde se muestran desde 2 perspectivas: en el hero y en el contenido.</p>
+        </main>
+
+        <footer>
+            <p>© 2026 Mi página web. Todos los derechos reservados.</p>
+            <p><a href="#">Aviso legal</a> · <a href="#">Política de privacidad</a></p>
+        </footer>
+    </div>
+</body>
+</html>
