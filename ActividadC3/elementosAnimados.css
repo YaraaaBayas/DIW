@@ -1,0 +1,49 @@
+.listado-elementos {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3, .elemento {
+    padding-top: 10px;
+    margin: 15px;
+}
+
+.elemento {
+    transition: background 0.5s ease;
+    border: 0.5px solid rgb(236, 233, 233);
+    border-radius: 0.5pc;
+    background-color: rgb(255, 255, 255);
+    width: 260px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elemento:hover {
+    background-color: rgb(195, 215, 247);
+}
+
+@keyframes resaltar {
+    from {
+        opacity: 0; 
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#elemento-animado1 {
+    animation-name: resaltar;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+#elemento-animado2 {
+    animation-name: resaltar;
+    animation-duration: 4s; 
+    animation-timing-function: ease-in;
+}
