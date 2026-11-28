@@ -1,6 +1,7 @@
 p {
     font-weight: bold;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 .listado-productos {
@@ -20,4 +21,21 @@ p {
     justify-content: center;
     align-items: center;
     margin: 5px;
+}
+
+.actividadC1_ud4, .destacado {
+    border: 1px solid black;
+    padding: 0 15px 15px;
+}
+
+.actividadC1_ud4 {
+    background-color: rgb(228, 213, 240);
+}
+
+button {
+    cursor: pointer;
+}
+
+.destacado {
+    background-color: aqua;
 }
